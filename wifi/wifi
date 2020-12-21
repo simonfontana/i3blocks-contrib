@@ -48,12 +48,12 @@ echo $QUALITY% # full text
 echo $QUALITY% # short text
 
 # color
-if [[ $QUALITY -ge 80 ]]; then
-    echo $COLOR_GE80
-elif [[ $QUALITY -ge 60 ]]; then
-    echo $COLOR_GE60
-elif [[ $QUALITY -ge 40 ]]; then
-    echo $COLOR_GE40
-else
-    echo $COLOR_LOWR
-fi
+#if [[ $QUALITY -ge 80 ]]; then
+#    echo $COLOR_GE80
+#elif [[ $QUALITY -ge 60 ]]; then
+#    echo $COLOR_GE60
+#elif [[ $QUALITY -ge 40 ]]; then
+#    echo $COLOR_GE40
+#else
+#    echo $COLOR_LOWR
+#fi
